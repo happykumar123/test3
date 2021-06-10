@@ -1,1 +1,11 @@
-this is fetch3
+How do you push a file from your local system to the GitHub repository using Git?
+
+First, connect the local repository to your remote repository:
+
+git remote add origin [copied web address]      
+
+// Ex: git remote add origin https://github.com/Simplilearn-github/test.git
+
+Second, push your file to the remote repository:
+
+git push origin master
