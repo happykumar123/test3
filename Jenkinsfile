@@ -11,7 +11,7 @@ pipeline {
                 git 'https://github.com/happykumar123/test3.git'
                 stage("Build") {
             steps {
-                mvn clean package
+                echo " HELLOOOOOO "
                    }
             }
            }
