@@ -2,9 +2,6 @@ pipeline {
     agent any 
     stages {
                 stage(" SCM Checkout Santhosh REPO " ) {
-            steps {
-                git 'https://github.com/happykumar123/test3.git'
-            }
                     steps {
                         git 'https://github.com/happykumar123/DevOpsClassCodes.git'
                 }
