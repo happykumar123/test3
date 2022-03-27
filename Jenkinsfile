@@ -5,6 +5,7 @@ pipeline {
             steps {
                 git 'https://github.com/happykumar123/test3.git'
             }
+                }
                 stage("Build") {
             steps {
                 echo " HELLOOOOOO "
@@ -13,5 +14,5 @@ pipeline {
            }
 }
 
-}
+
 
