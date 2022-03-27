@@ -5,6 +5,8 @@ pipeline {
             steps {
                 git 'https://github.com/happykumar123/test3.git'
             }
+                    steps {
+                        git 'https://github.com/happykumar123/DevOpsClassCodes.git'
                 }
                 stage("Build") {
             steps {
